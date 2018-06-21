@@ -1,0 +1,16 @@
+
+  .card1{background:white;border:2px solid ; margin: 10px; border-radius: 5px; transition: all .2s ease-in-out;}
+    .card-img1{border-top-left-radius: 0px; height: 170px;width: 100%;opacity: 0.60;}
+    .body1{font-weight: 700; font-size: 2em; }
+    .body2{font-weight: 700;font-size: 1.65em;}
+    a{color: black; }
+    .card1:hover{transform: scale(1.05);}
+    a:hover{text-decoration: none;}
+    a.btn{color: white; z-index: 1; position: absolute;}
+    .prev{position: absolute;top:35%; }
+    .next{position: absolute;top:35%;right: 0%;}
+    .indicators1{bottom: 11px;}
+    .inner1{padding:0 2em;}
+    .fluid1{margin-right:50px; margin-left: 10;   background-image: url("../img/card/Blur-Wallpapers-24-2560-x-1600.jpg");background-size: cover;background-position: center; background-repeat: repeat;}
+    h3{color: white;text-align: center;width: inherit; align-content: : center; }
+     

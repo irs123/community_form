@@ -1,0 +1,100 @@
+#lowerBar{
+	background-image:linear-gradient(rgba(255,255,255,0.4),rgba(0,0,0,0.1)),url("../images/bg-6.jpg");
+	background-size: cover;
+	margin-bottom:20px;
+}
+#thiredBar{
+	background-image:linear-gradient(rgba(255,255,255,0.4),rgba(0,0,0,0.1)),url("../images/bg-7.jpg");
+	background-size: cover;
+}
+#mainHeading{
+	background-color: rgba(0,0,0,0.3);
+	color:white;
+	padding:.6rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+#mainSideBar{
+	padding-top: .5rem;
+	margin-bottom:1rem;
+}
+
+#sideNav > ul{
+		width:100%;
+}
+nav.navbar{
+	padding:0px;
+}
+a.linkCards{
+	color:inherit;
+}
+img.contentImages{
+	opacity: 0.4;
+}
+h6{
+	font-weight: bold;
+}
+.carousel {
+	padding-bottom:5%;
+}
+.carousel-control-prev , .carousel-control-next{
+	width:5%;
+}
+.detailCard{
+	padding:0.5rem;
+	margin-bottom: 2rem;
+}
+.viewButton{
+	background-color: rgba(0,0,0,.3) !important;
+	padding:.1rem !important; 
+	font-size: .6rem !important;
+	color:#fff !important;
+}
+.card-body{
+	font-size: .8rem;
+}
+.contentImages{
+	max-height: 170px;
+}
+.nextButton, .prevButton{
+	background-color: rgba(255,255,255,0.1);
+}
+
+.card-footer{
+	padding:.4rem;
+	padding-left:1rem;
+	font-size:.6rem;
+}
+.card-footer > ul{
+	margin:0px;
+}
+
+
+@media(max-width:576px)
+{
+	.col-sm-3 ,.col-sm-4{
+		padding:0px !important; 
+	}
+}
+
+@media(max-width: 768px)
+{
+	#lowerBar{
+		max-width: 767px;
+	}
+	#mainContent{
+	flex: 0 0 100% !important;
+    max-width: 100% !important;
+	}
+	#mainSideBar{
+	flex: 0 0 100% !important;
+    max-width: 100% !important;
+	}
+		#mainHeading{
+		margin-bottom:0px;
+	}
+	.detailCard{
+		padding:0.3rem;
+	}
+
+}
